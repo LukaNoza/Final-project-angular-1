@@ -12,7 +12,7 @@ header .shape {
 }
 
 header .navbar {
-    height: 114px;
+    height: 120px;
     z-index: 10;
 }
 
@@ -62,8 +62,67 @@ header .navbar {
     max-height: 842px;
     object-fit: cover;
     --mask:
-    radial-gradient(29.30px at 50% 40.80px,#000 99%,#0000 101%) calc(50% - 48px) 0/96px 100%,
-    radial-gradient(29.30px at 50% -16.8px,#0000 99%,#000 101%) 50% 24px/96px 100% repeat-x;
+    radial-gradient(25.63px at 50% 35.70px,#000 99%,#0000 101%) calc(50% - 42px) 0/84px 51% repeat-x,
+    radial-gradient(25.63px at 50% -14.7px,#0000 99%,#000 101%) 50% 21px/84px calc(51% - 21px) repeat-x,
+    radial-gradient(25.63px at 50% calc(100% - 35.70px),#000 99%,#0000 101%) calc(50% - 42px) 100%/84px 51% repeat-x,
+    radial-gradient(25.63px at 50% calc(100% + 14.70px),#0000 99%,#000 101%) 50% calc(100% - 21px)/84px calc(51% - 21px) repeat-x;
   -webkit-mask: var(--mask);
           mask: var(--mask);
+}
+
+
+.cards-area {
+    background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/547147222.jpg?id=223);
+    background-size: cover;
+    margin-top: -75px;
+    height: 766.59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.cards-area .card-chlid {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.cards-area h2 h3 {
+    font-family: 'Merienda', cursive;
+    color: #000;
+    font-weight: 700;
+}
+
+
+.cards-area .cards{
+    align-items: center;
+    text-align: center;
+    margin-top: 110px;
+    width: 1616px;
+    margin-bottom: opx;
+}
+
+
+.cards-area .cards img {
+    width: 221px;
+}
+
+
+.cards-area .card {
+    position: relative;
+    width: 100%;
+    height:300px;
+    background-color: rgba(255, 255, 255, 0.7);
+    align-items: center;
+    text-align: center;
+}
+
+
+.cards-area .card img {
+    width: 126px;
 }
