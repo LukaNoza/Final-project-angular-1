@@ -167,7 +167,7 @@ header .navbar {
     radial-gradient(14.53px at 50% calc(100% + 6.50px),#0000 99%,#000 101%) 50% calc(100% - 13px)/52px calc(51% - 13px) repeat-x;
   -webkit-mask: var(--mask);
           mask: var(--mask);
-    margin-top: -50px;
+    margin-top: -75px;
     width: 100%;
     
 }
@@ -175,6 +175,131 @@ header .navbar {
 .magic-cont .magic-child {
     height: 719px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(47 161 156 / 70%);
     text-align: center;
+    color: #fff;
+    font-family: 'Merienda', cursive;
+    font-weight: 900;
+}
+
+
+.magic-cont .magic-child h1 {
+    font-size: 54px;
+}
+
+
+.magic-cont .magic-child p {
+    width: 1000px;
+    margin-left: 23%;
+}
+
+
+.magic-cont .magic-child .heart {
+    margin-top: 50px;
+}
+
+
+.magic-cont .magic-child img {
+    margin-top: 70px;
+}
+
+
+.magic-cont .magic-child button {
+    font-size: 30px;
+    border-radius: 30px;
+    border: 3px solid #fff;
+}
+
+
+.cupcake {
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cupcake .cupcake-child {
+    height: 853px;
+    width: 1300px;
+    border: 3px solid #fff;
+}
+
+.cupcake .cupcake-top {
+    width: 221px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+.cupcake .cupcake-top img {
+    width: 221px;
+}
+
+.cupcake .cupcake-top h2 {
+    width: 600px;
+    align-self: center;
+    margin-left: -80px;
+}
+
+
+.cupcake .cupcake-gal {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cupcake .cupcake-gal .cups img {
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+.cws {
+    background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/674906526.jpg?id=254);
+    height: 673px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    --mask:
+    radial-gradient(16.33px at 50% 22.40px,#000 99%,#0000 101%) calc(50% - 28px) 0/56px 51% repeat-x,
+    radial-gradient(16.33px at 50% -8.4px,#0000 99%,#000 101%) 50% 14px/56px calc(51% - 14px) repeat-x,
+    radial-gradient(16.33px at 50% calc(100% - 22.40px),#000 99%,#0000 101%) calc(50% - 28px) 100%/56px 51% repeat-x,
+    radial-gradient(16.33px at 50% calc(100% + 8.40px),#0000 99%,#000 101%) 50% calc(100% - 14px)/56px calc(51% - 14px) repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+
+
+
+
+.cws .card {
+    width: 283px;
+    height: 270px;
+    background-color: transparent;
+    border: #0000;
+}
+
+
+.cws .card .card-img-top {
+    align-self: center;
+}
+
+
+.cws .card .card-text {
+    color: #fff;
+    font-family: 'Merienda', cursive;
+    font-weight: 900;
+    padding-left: 13%;
+}
+
+
+.cws .card .card-title {
+    color: #fff;
+    font-family: 'Merienda', cursive;
+    font-weight: 900;
+    padding-left: 31%;
 }
