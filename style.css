@@ -240,7 +240,7 @@ header .navbar {
 .cupcake .cupcake-top h2 {
     width: 600px;
     align-self: center;
-    margin-left: -80px;
+    margin-left: -61px;
 }
 
 
@@ -302,4 +302,33 @@ header .navbar {
     font-family: 'Merienda', cursive;
     font-weight: 900;
     padding-left: 31%;
+}
+
+
+.menu {
+    background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/bg_med.jpg?id=490);
+    height: 1112px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    flex-wrap: wrap;
+    margin-top: -50px;
+}
+
+.menu .mini-top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding-left: 75px;
+}
+
+.menu img {
+    width: 221px;
+}
+
+
+.menu .card-bodys {
+    margin-left: -60px;
 }
