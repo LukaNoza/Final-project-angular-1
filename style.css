@@ -332,3 +332,93 @@ header .navbar {
 .menu .card-bodys {
     margin-left: -60px;
 }
+
+/* client=say */
+
+
+.client-say {
+    background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/516360906.jpg?id=188);
+    height: 602px;
+    width: 100%;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    --mask:
+    radial-gradient(16.33px at 50% 22.40px,#000 99%,#0000 101%) calc(50% - 28px) 0/56px 51% repeat-x,
+    radial-gradient(16.33px at 50% -8.4px,#0000 99%,#000 101%) 50% 14px/56px calc(51% - 14px) repeat-x,
+    radial-gradient(16.33px at 50% calc(100% - 22.40px),#000 99%,#0000 101%) calc(50% - 28px) 100%/56px 51% repeat-x,
+    radial-gradient(16.33px at 50% calc(100% + 8.40px),#0000 99%,#000 101%) 50% calc(100% - 14px)/56px calc(51% - 14px) repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+
+
+.client-say .cupcake-top img {
+    margin-left: 42%;
+}
+
+
+.client-say .cupcake-top h2 {
+    margin-left: 33%;
+}
+
+
+.client-say .cupcake-top h3 {
+    margin-left: 39%;
+}
+
+
+.client-say p {
+    color: rgb(30, 12, 78);
+    font-size: 20px;
+}
+
+
+/* prices */
+
+
+.prices {
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.prices .prices-child {
+    height: 853px;
+    width: 1300px;
+    border: 3px solid #fff;
+}
+
+.prices .prices-top {
+    width: 221px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+.prices .prices-top img {
+    width: 221px;
+}
+
+.prices .prices-top h2 {
+    width: 600px;
+    align-self: center;
+    margin-left: -61px;
+}
+
+
+.prices .prices-gal {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.prices .prices-gal .cups img {
+    border-radius: 20px;
+    margin-top: 20px;
+}
